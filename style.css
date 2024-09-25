@@ -114,10 +114,22 @@ input::placeholder {
     justify-content: center;
     margin-bottom: 3px;
     color: #fff;
+    font-weight: 100;
 }
 .register a{
     color: #fff;
 }
 .remember a{
     color: #fff;
+}
+@media (max-width:425px){
+    .active{
+        max-width: 90%;
+    }
+    .remember{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        justify-content: center;
+    }
 }

@@ -104,10 +104,16 @@ input::placeholder{
 .register{
     text-align: center;
     margin-bottom: 3px;
+    font-weight: 100;
 }
 a{
     color: #fff;
 }
 .help{
     text-align: center;
+}
+@media (max-width:425px){
+    .active{
+        max-width: 90%;
+    }
 }
